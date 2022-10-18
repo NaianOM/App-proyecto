@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OlvideContrasena"
+    android:background="@drawable/fondo_contrasena">
+
+    <LinearLayout
+        android:id="@+id/linearLayout6"
+        android:layout_width="359dp"
+        android:layout_height="77dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="534dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/wlcom_contrasena"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:text="@string/bienvenida_contrasena"
+            android:textColor="#EF7CAE"
+            android:textSize="34sp"
+            app:autoSizeTextType="none" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout7"
+        android:layout_width="287dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="96dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginBottom="371dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+        <TextView
+            android:id="@+id/nombre_olvido_txtvw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/nombre"
+            android:textColor="#EF7CAE" />
+
+        <EditText
+            android:id="@+id/nombre_olvido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/nombre_usuario"
+            android:inputType="textPersonName"
+            android:minHeight="48dp"
+            android:textColor="@color/black"
+            android:textColorHint="#838588" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="287dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="63dp"
+        android:orientation="horizontal"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout7">
+
+        <TextView
+            android:id="@+id/contrasena_olvido_txtvw"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/contrasena"
+            android:textColor="#EF7CAE" />
+
+        <EditText
+            android:id="@+id/contrasena_olvido"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:hint="@string/contrasena_usario"
+            android:inputType="textPassword"
+            android:minHeight="48dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="326dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginBottom="91dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <Button
+            android:id="@+id/btn_regresar"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:onClick="Regresar"
+            android:text="@string/regresar"
+            android:textColor="#EF7CAE"
+            app:strokeColor="#EF7CAE" />
+
+        <Button
+            android:id="@+id/btn_buscar"
+            style="?attr/materialButtonOutlinedStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/buscar"
+            android:textColor="#EF7CAE"
+            app:strokeColor="#EF7CAE"
+            />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

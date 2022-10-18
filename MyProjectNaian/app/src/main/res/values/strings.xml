@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">MySplash</string>
+    <string name="usuario_login">Usuario</string>
+    <string name="contrasena">Contraseña</string>
+    <string name="aceptar">Login</string>
+    <string name="contrasena_olv">Olvidé mi contraseña</string>
+    <string name="nombre_usuario">Nombre de usuario</string>
+    <string name="contrasena_usario">Ingresar contraseña</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="usuario_registro">Nombre de usuario</string>
+    <string name="nombre">Nombre</string>
+    <string name="contrasena_registro">Escriba una contraseña</string>
+    <string name="correo">Correo electrónico</string>
+    <string name="correo_registro">Escriba su correo</string>
+    <string name="telefono">Número de teléfono</string>
+    <string name="descripcion">Una pequeña descripción de su persona</string>
+    <string name="registrar">Registrarse</string>
+    <string name="regresar">Regresar</string>
+    <string name="bienvenida_contrasena">Olvidé mi contraseña</string>
+    <string name="buscar">Buscar</string>
+    <string name="expe">¿Ha trabajado con Nextech?</string>
+    <string name="si">Sí</string>
+    <string name="no">No</string>
+    <string name="fecha">Fecha de registro</string>
+    <string name="fechaini">Fecha</string>
+    <string name="terminos">Acepto los términos y condiciones</string>
+    <string name="politicas">He leído las políticas de privacidad</string>
+    <string name="altura">Altura</string>
+    <string name="alturamts">Altura en mts</string>
+    <string name="enfermedad">¿Posee una enfermadad o alergia?</string>
+</resources>
